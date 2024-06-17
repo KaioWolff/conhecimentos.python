@@ -17,7 +17,7 @@ def controledevelocidade():
 
         if velocidade <= 0 or velocidade >= 100:
             break
-        print(f"operacao finalizada,velocidade final: {velocidade} km")
+        print(f"operacao finalizada,velocidade final: {velocidade} km!!!!!!!!")
 
 controledevelocidade()
 

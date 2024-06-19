@@ -1,4 +1,4 @@
-from calculadora import *
+from calculadora36 import *
 
 n1 = float(input("digite um valor"))
 n2 = int(input("digite um valor"))

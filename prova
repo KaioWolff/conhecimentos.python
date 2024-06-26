@@ -1,0 +1,80 @@
+# 1
+# numero = int(input("digite uma numero:"))
+# if numero % 2 == 0:
+#     print("o numero e par.")
+# else:
+#     print("o numero e impar.")
+# if numero % 3 == 0 and numero % 5 == 0:
+#     print("o numero e multiplo de 3 e de 5")
+
+# 2
+# numero1 = float(input("digite um valor"))
+#
+# if numero1 >0:
+#     print(f"valor 1 e positivo")
+# else:
+#     print(f"valor 1 e negativo")
+
+# numero1 = float(input("digite um valor"))
+# numero2 = float(input("digite um valor"))
+#
+# if numero1 >0:
+#     print(f"nao e igual")
+#
+# float("nao e igual")
+
+# 3
+# numero1 = float(input("digite um valor:"))
+# numero2 = float(input("digite uma valor:"))
+# if numero1 ==0:
+#     print(f"o numero e igual")
+# else numero2 ==0:
+#     print(f"o numero e igual")
+
+
+# 5
+# numero1 = int(input("digite um numero:"))
+# numero1 = int(input("digite uma numero:"))
+
+# if numero % 3 == 0 and numero % 5 == 0:
+#     print("o numero e multiplo de {} e de {}")
+# else:
+#     print("nao e multiplo de {} e nem de {}")
+
+# 6
+# valor1= (input("digite um valor"))
+# valor2= (input("digite um valor"))
+# valor3= (input("digite um valor"))
+# valor4= (input("digite um valor"))
+#
+# if (valor1>valor2):
+#     print(f"valor1 e maior")
+# else:
+#     print("valor2 e maior")
+# if (valor3>valor4):
+#     print(f"valor3 e maior")
+# else:
+#     print("valor4 e maior")
+
+# 7
+# n1= (input("digite um valor"))
+# n2= (input("digite um valor"))
+# n3= (input("digite um valor"))
+# n4= (input("digite um valor"))
+#
+# conta = (n1 + n2 + n3 + n4)
+#
+# print("sua conta e : {} ".format(conta))
+
+
+
+
+
+
+# 11
+
+# temperatura = int(input("digite uma temperatura em c"))
+# conversao = (temperatura * 9/5)+ 32
+# print (conversao)
+
+# 13

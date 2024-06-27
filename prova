@@ -15,66 +15,90 @@
 # else:
 #     print(f"valor 1 e negativo")
 
-# numero1 = float(input("digite um valor"))
-# numero2 = float(input("digite um valor"))
-#
-# if numero1 >0:
-#     print(f"nao e igual")
-#
-# float("nao e igual")
 
 # 3
 # numero1 = float(input("digite um valor:"))
 # numero2 = float(input("digite uma valor:"))
-# if numero1 ==0:
+# if numero1 == numero2:
 #     print(f"o numero e igual")
-# else numero2 ==0:
-#     print(f"o numero e igual")
+# else:
+#     print(f"o numero nao e igual")
+
+# 4
+# numero = float(input("digite um numero:"))
+# if 25 <= numero <= 37:
+#     print("o numero esta dentro")
+# else:
+#     print("o numero esta fora")
 
 
 # 5
 # numero1 = int(input("digite um numero:"))
-# numero1 = int(input("digite uma numero:"))
-
-# if numero % 3 == 0 and numero % 5 == 0:
-#     print("o numero e multiplo de {} e de {}")
+# numero2 = int(input("digite uma numero:"))
+#
+# if numero2 != 0 and numero1 % numero2 == 0:
+#     print("o {numero1} e multiplo de {numero2}")
 # else:
-#     print("nao e multiplo de {} e nem de {}")
+#     print("nao {numero1} nao e multiplo de {numero2}")
 
 # 6
-# valor1= (input("digite um valor"))
-# valor2= (input("digite um valor"))
-# valor3= (input("digite um valor"))
-# valor4= (input("digite um valor"))
+# numero1= float(input("digite um valor"))
+# numero2= float(input("digite um valor"))
+# numero3= float(input("digite um valor"))
+# numero4= float(input("digite um valor"))
 #
-# if (valor1>valor2):
-#     print(f"valor1 e maior")
-# else:
-#     print("valor2 e maior")
-# if (valor3>valor4):
-#     print(f"valor3 e maior")
-# else:
-#     print("valor4 e maior")
+# maior_numero = max(numero1, numero2, numero3, numero4)
+#
+# print(f"o maior numero e {maior_numero}")
 
 # 7
-# n1= (input("digite um valor"))
-# n2= (input("digite um valor"))
-# n3= (input("digite um valor"))
-# n4= (input("digite um valor"))
+# n1= float(input("digite um valor"))
+# n2= float(input("digite um valor"))
+# n3= float(input("digite um valor"))
+# n4= float(input("digite um valor"))
 #
-# conta = (n1 + n2 + n3 + n4)
+# soma = n1 + n2 + n3 + n4
 #
-# print("sua conta e : {} ".format(conta))
+# print(f"sua conta e : {soma} ")
 
+# 8
+# numero1 = float(input("digite um valor"))
+# numero2 = float(input("digite um valor"))
+#
+# resto = (numero1%numero2)
+#
+# print(f'resto e {resto}')
 
+# 9
+# numero1 = int(input("digite uma valor"))
+# numero2 = int(input("digite um vcalor"))
+#
+# resultado = (numero1**numero2)
+# print(f'resultado e {resultado}')
 
-
-
+# 10
+# crianca1 = float(input("altura"))
+# crianca2 = float(input("altura"))
+# crianca3 = float(input("altura"))
+#
+# resultado = (crianca1 + crianca2 + crianca3)/3
+# print(f"resultado e {resultado}")
 
 # 11
-
 # temperatura = int(input("digite uma temperatura em c"))
 # conversao = (temperatura * 9/5)+ 32
 # print (conversao)
 
+# 12
+# bruto = int(input("valor"))
+# desconto = int(input("valor"))
+# liquido = (bruto - desconto)
+#
+# print (f"salario liquido e {liquido}")
+
 # 13
+
+# distancia = int(input("distancia percorrida"))
+# tempo = int(input("tempo percorrido"))
+# velocidade = (distancia / tempo)
+# print (f"velocidade percorrida e {velocidade}")

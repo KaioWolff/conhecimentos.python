@@ -47,9 +47,14 @@
 # numero3= float(input("digite um valor"))
 # numero4= float(input("digite um valor"))
 #
-# maior_numero = max(numero1, numero2, numero3, numero4)
-#
-# print(f"o maior numero e {maior_numero}")
+# if numero1>numero2 and numero1>numero3 and numero1>numero4:
+#     print("numero1 e maior")
+# elif numero2>numero1 and numero2>numero3 and numero2>numero4:
+#     print("numero1 e maior")
+# if numero3 > numero2 and numero3 > numero1 and numero3 > numero4:
+#     print("numero1 e maior")
+# else:
+#     print("numero4 e maior")
 
 # 7
 # n1= float(input("digite um valor"))
